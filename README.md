@@ -9,6 +9,7 @@ The codebase is organized into folders based on specific topics:
 - **`Assignment_on_Recursion/`**: Contains 20 C++ programs solving fundamental recursion problems (e.g., Factorial, Fibonacci, Tower of Hanoi, String Reversal).
 - **`Assignment_on_Hash_Tables/`**: Contains 9 C++ programs demonstrating Hash Table implementations (e.g., Hash Functions, Linear Probing, Separate Chaining, Spell Checker).
 - **`Pointers_Structures_Arrays/`**: Contains 10 C++ programs focused on memory management, pointer traversal, and dynamic allocation.
+- **`Sorting_Algorithms/`**: Contains 8 C++ programs implementing the most common sorting algorithms (Bubble, Selection, Insertion, Merge, Quick, Heap, Counting, Radix) along with detailed documentation of their Time and Space complexities.
 - **`DSA_Practice_2024_2025/`**: Contains a larger project (`Hospital_Management_System.cpp`) which demonstrates the use of multiple Linked Lists in a real-world scenario with an interactive menu.
 
 ## 🚀 How to Compile and Run
