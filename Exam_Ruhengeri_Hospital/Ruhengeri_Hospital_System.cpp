@@ -151,7 +151,7 @@ void registerAppointment() {
     int id, p_id, d_id;
     string date;
     
-    cout << " ID:";
+    cout << "ID:";
     cin >> id;
     
     if (appointmentExists(id)) {
@@ -238,14 +238,14 @@ int main() {
     
     do {
         cout << "\nMenu:" << endl;
-        cout << "1.Register a Patient" << endl;
-        cout << " 2.Register a Doctor" << endl;
-        cout << " 3.Register an Appointment" << endl;
-        cout << " 4.Display all Patients" << endl;
-        cout << " 5.Display  Doctors" << endl;
-        cout << " 6.Display  Appointments" << endl;
-        cout << " 7.Exit" << endl;
-        cout << "\nEnter your choice: ";
+        cout << "1. Register a Patient" << endl;
+        cout << "2. Register a Doctor" << endl;
+        cout << "3. Register an appointment" << endl;
+        cout << "4. Display  Patients" << endl;
+        cout << "5. Display  Doctors" << endl;
+        cout << "6. Display  Appointments" << endl;
+        cout << "7.Exit" << endl;
+        cout << "Enter your choice: ";
         
         cin >> choice;
         
