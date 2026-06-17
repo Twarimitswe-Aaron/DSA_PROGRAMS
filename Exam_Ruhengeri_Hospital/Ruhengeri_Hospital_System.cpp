@@ -3,9 +3,6 @@
 
 using namespace std;
 
-// ---------------------------------------------------------
-// Linked List Nodes
-// ---------------------------------------------------------
 
 struct PatientNode {
     int patient_id;
@@ -39,17 +36,11 @@ struct AppointmentNode {
         : appointment_id(a_id), patient_id(p_id), doctor_id(d_id), appointment_date(date), next(nullptr) {}
 };
 
-// ---------------------------------------------------------
-// Global Pointers to the Heads of the Linked Lists
-// ---------------------------------------------------------
 
 PatientNode* patientsHead = nullptr;
 DoctorNode* doctorsHead = nullptr;
 AppointmentNode* appointmentsHead = nullptr;
 
-// ---------------------------------------------------------
-// Validation Functions
-// ---------------------------------------------------------
 
 bool patientExists(int id) {
     PatientNode* curr = patientsHead;
@@ -78,9 +69,6 @@ bool appointmentExists(int id) {
     return false;
 }
 
-// ---------------------------------------------------------
-// Registration Functions
-// ---------------------------------------------------------
 
 void registerPatient() {
     cout << "PATIENT REGISTRATION" << endl;
@@ -97,7 +85,7 @@ void registerPatient() {
         return;
     }
     
-    // Clear newline character from buffer before reading strings
+    
     cin.ignore();
     
     cout << "NAME: ";
@@ -165,7 +153,7 @@ void registerAppointment() {
     cout << "D_ID:";
     cin >> d_id;
     
-    // Validate that both patient and doctor exist
+  
     if (!patientExists(p_id) || !doctorExists(d_id)) {
         cout << "Error: The given Patient ID or Doctor ID does not exist!" << endl;
         return;
@@ -180,9 +168,6 @@ void registerAppointment() {
     appointmentsHead = newNode;
 }
 
-// ---------------------------------------------------------
-// Display Functions
-// ---------------------------------------------------------
 
 void displayPatients() {
     PatientNode* curr = patientsHead;
@@ -229,9 +214,6 @@ void displayAppointments() {
     cout << "------------------------" << endl;
 }
 
-// ---------------------------------------------------------
-// Main Menu Loop
-// ---------------------------------------------------------
 
 int main() {
     int choice;
@@ -244,7 +226,7 @@ int main() {
         cout << "4. Display  Patients" << endl;
         cout << "5. Display  Doctors" << endl;
         cout << "6. Display  Appointments" << endl;
-        cout << "7.Exit" << endl;
+        cout << "7. Exit" << endl;
         cout << "Enter your choice: ";
         
         cin >> choice;
