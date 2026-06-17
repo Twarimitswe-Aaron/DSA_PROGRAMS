@@ -14,6 +14,7 @@ The codebase is organized into folders based on specific topics:
 - **`Linked_List_Sorting/`**: Contains C++ programs illustrating sorting algorithms specifically designed for Linked Lists (e.g., Merge Sort, Insertion Sort, Selection Sort, Bubble Sort).
 - **`Trees/`**: Contains C++ programs illustrating Tree structures, including Binary Tree Traversals (In-order, Pre-order, Post-order, Level-order), BST operations, and an AVL Self-Balancing Tree implementation.
 - **`Graphs/`**: Contains C++ programs demonstrating Graph Representations (Adjacency Matrix/List), Traversals (BFS, DFS), Shortest Path (Dijkstra), and Minimum Spanning Tree (Prim's).
+- **`Exam_Ruhengeri_Hospital/`**: Contains a fully refined problem statement and the C++ implementation of the Ruhengeri Referral Hospital Patient-Doctor-Appointment management system using 3 Linked Lists, complete with unique ID validations and strict terminal menu structures.
 - **`DSA_Practice_2024_2025/`**: Contains a larger project (`Hospital_Management_System.cpp`) which demonstrates the use of multiple Linked Lists in a real-world scenario with an interactive menu.
 
 ## 🚀 How to Compile and Run
